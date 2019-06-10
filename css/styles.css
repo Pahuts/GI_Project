@@ -6,7 +6,9 @@
 
 header
 {
-  background-color:darkturquoise;
+  background-color: #4ABDAC;
+  height: 112px;
+  line-height: 112px;
 }
 
 ul
@@ -17,9 +19,84 @@ ul
 ul li
 {
   display: inline-block;
-}
 
-header nav
+}
+  
+header nav  
 {
   float: right;
+  margin-right: -200px;
 } 
+
+.logo img
+{
+  margin-top: 15px;
+}
+
+header nav ul li a
+{
+  padding-right: 30px;
+  font-weight: bold;
+  color: white;
+  transition: all 0.5s ease-in;
+}
+
+header nav ul li a:hover
+{
+  text-decoration: none;
+  color: #FC4A1A;
+}
+
+.image1
+{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//images/image1.png);
+  background-size: 100% 100%;
+}
+
+.slider,.slider ul,.slider ul li
+{
+  height: 710px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.slider h2
+{
+  font-weight: bold;
+  margin-top: 210px;
+}
+
+.slider span
+{
+  color: #FC4A1A;
+}
+
+.slider a
+{
+  padding: 10px 40px;
+  margin-right: 10px;
+}
+
+.slider a.btn-half
+{
+    background-color: deepskyblue;
+    color:white;
+}
+
+.slider a.btn-full
+{
+    background-color: #FC4A1A;
+    color:white;
+}
+
+.image2
+{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(..//images/image2.png);
+  background-size: 100% 100%;
+}
+
+.image3
+{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(..//images/image3.png);
+  background-size: 100% 100%;
+}
